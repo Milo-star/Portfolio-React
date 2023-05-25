@@ -5,10 +5,16 @@ import img from './images/dev-ed-wave.png'
 import bitmoji from './images/bitmoji.png'
 import design from './images/design.png'
 import code from './images/code.png'
+import web1 from './images/web1.png'
+import web2 from './images/web2.png'
+import web3 from './images/web3.png'
+import web4 from './images/web4.png'
+import web5 from './images/web5.png'
+import web6 from './images/web6.png'
 
 const App = () => {
   return (
-    <main className="bg-white px-10 ">
+    <main className="bg-white px-10 md:px-20 lg:px-40">
       <section className="min-h-screen">
         <nav className="py-10 flex justify-end">
           <ul className='flex items-center'>
@@ -25,9 +31,9 @@ const App = () => {
           <div className='flex justify-center'>
             <img src={bitmoji}/>
           </div>
-          <h2 className='text-5xl py-2 text-teal-600 font-medium'>Bonnet Milo</h2>
-          <h3 className='text-2xl py-2'>Developer Full-stack.</h3>
-          <p className='text-md py-5 leading-8 text-gray-800'>Young 19-year-old developer coming out of training at <span className='text-teal-500'>BeCode</span> for 7 months. I present to you my portfolio with my different projects available! I'm starting my internship at <span className='text-teal-500'>Agency Digital</span> as a Fullstack developer</p>
+          <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Bonnet Milo</h2>
+          <h3 className='text-2xl py-2 md:text-3xl'>Developer Full-stack.</h3>
+          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl'>Young 19-year-old developer coming out of training at <span className='text-teal-500'>BeCode</span> for 7 months. I present to you my portfolio with my different projects available! I'm starting my internship at <span className='text-teal-500'>Agency Digital</span> as a Fullstack developer</p>
         </div>
 
         <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -57,7 +63,7 @@ const App = () => {
         </div>
 
         <div>
-          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+          <div className='text-center shadow-2xl p-10 rounded-xl my-10'>
             <div className='flex justify-center'>
               <img src={design} alt="logo" width={100} height={100}/>
             </div>
@@ -68,17 +74,50 @@ const App = () => {
             <p className='text-gray-800 py-1'>Canva</p>
           </div>
 
-          <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+          <div className='text-center shadow-2xl p-10 rounded-xl my-10'>
             <div className='flex justify-center'>
               <img src={code} alt="logo" width={100} height={100}/>
             </div>
             <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful coding</h3>
-            <p className='py-2'>I provide clear and readable code</p>
+            <p className='py-2'>I provide clear, readable and above all quality code!</p>
             <h4 className='py-4 text-teal-600'>The technologies I use</h4>
             <p className='text-gray-800 py-1'>React</p>
             <p className='text-gray-800 py-1'>Vue.js</p>
             <p className='text-gray-800 py-1'>Laravel</p>
             <p className='text-gray-800 py-1'>Tailwind</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h3 className='text-3xl py-1'>Portfolio</h3>
+          <p className='text-md py-2 leading-8 text-gray-800'>Here are some projects that I realized with heart whether <span className='text-teal-500'>personal</span> or <span className='text-teal-500'>professional</span></p>
+        </div>
+
+        <div>
+          <div>
+            <img src={web1} alt="logo" />
+          </div>
+
+          <div>
+            <img src={web2} alt="logo" />
+          </div>
+
+          <div>
+            <img src={web3} alt="logo" />
+          </div>
+
+          <div>
+            <img src={web4} alt="logo" />
+          </div>
+
+          <div>
+            <img src={web5} alt="logo" />
+          </div>
+
+          <div>
+            <img src={web6} alt="logo" />
           </div>
         </div>
       </section>
