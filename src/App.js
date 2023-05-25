@@ -65,7 +65,7 @@ const App = () => {
           <p className='text-md py-Z leading-8 text-gray-800 dark:text-gray-200'>Since the beginning of my journey I learned to work remotely, I also learned to do design, group work</p>
         </div>
 
-        <div className='lg:flex gap-10'>
+        <div className='lg:flex justify-center gap-10'>
           <div className='text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-white'>
             <div className='flex justify-center'>
               <img src={design} alt="logo" width={100} height={100}/>
