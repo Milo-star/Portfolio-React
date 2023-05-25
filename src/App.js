@@ -43,8 +43,8 @@ const App = () => {
         </div>
 
 
-        <div className='relative bg-gradient-to-b from-teal-500'>
-          <img src={img} alt="logo"  />
+        <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden'>
+          <img src={img} alt="logo"  layout="fill" objectFit="cover"/>
        </div>
       
       </section>
