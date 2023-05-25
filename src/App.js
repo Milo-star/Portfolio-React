@@ -1,13 +1,13 @@
 import React from 'react';
 import { FaMoon } from 'react-icons/fa';
-import { AiFillTwitterCircle, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import img from './images/dev-ed-wave.png'
 
 const App = () => {
   return (
     <main className="bg-white px-10 ">
       <section className="min-h-screen">
-        <nav className="py-10 mb-12 flex justify-between">
-          <h1 className='text-xl'>Milo</h1>
+        <nav className="py-10 mb-12 flex justify-end">
           <ul className='flex items-center'>
             <li>
               <FaMoon className='cursor-pointer text-xl'/>
@@ -25,10 +25,17 @@ const App = () => {
         </div>
 
         <div className='text-5xl text-gray-600'>
-          <AiFillTwitterCircle className='cursor-pointer mb-3'/>
-          <AiFillGithub className='cursor-pointer mb-3'/>
-          <AiFillLinkedin className='cursor-pointer mb-3'/>
+          <a href='https://github.com/Milo-star'>
+            <AiFillGithub className='cursor-pointer mb-3'/>
+          </a>
+          <a href='https://www.linkedin.com/in/milo-bonnet/'>
+            <AiFillLinkedin className='cursor-pointer mb-3'/>
+          </a>
         </div>
+
+        <div>
+          <img src={img} alt="logo" />
+       </div>
       
       </section>
     </main>
