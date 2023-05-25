@@ -61,7 +61,7 @@ const App = () => {
 
       <section>
         <div className='mt-10'>
-          <h3 className='text-3xl py-1 dark:text-white'>Service I offer</h3>
+          <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
           <p className='text-md py-Z leading-8 text-gray-800 dark:text-gray-200'>Since the beginning of my journey I learned to work remotely, I also learned to do design, group work</p>
         </div>
 
