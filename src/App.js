@@ -20,7 +20,7 @@ const App = () => {
     <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
       <section className="min-h-screen">
         <nav className="py-10 flex justify-end">
-          <ul className='flex items-center'>
+          <ul className='flex items-center'> 
             <li>
               <FaMoon onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-white'/>
             </li>
