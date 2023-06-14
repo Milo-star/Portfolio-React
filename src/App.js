@@ -86,6 +86,7 @@ const App = () => {
             <h4 className='py-4 text-teal-600'>The technologies I use</h4>
             <p className='text-gray-800 py-1'>React</p>
             <p className='text-gray-800 py-1'>Vue.js</p>
+            <p className='text-gray-800 py-1'>TypeScript</p>
             <p className='text-gray-800 py-1'>Laravel</p>
             <p className='text-gray-800 py-1'>Tailwind</p>
           </div>
