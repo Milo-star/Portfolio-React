@@ -93,9 +93,9 @@ const App = () => {
       </section>
 
       <section>
-        <div>
+        <div className='flex flex-col items-center'>
           <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
-          <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Here are some projects that I realized with heart whether <span className='text-teal-500'>personal</span> or <span className='text-teal-500'>professional</span></p>
+          <p className='text-md text-center py-2 leading-8 text-gray-800 dark:text-white'>Here are some projects that I realized with heart whether <span className='text-teal-500'>personal</span> or <span className='text-teal-500'>professional</span></p>
         </div>
 
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
