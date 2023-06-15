@@ -40,15 +40,15 @@ const App = () => {
         </div>
 
         <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-          <a href='https://github.com/Milo-star'>
+          <a href='https://github.com/Milo-star' target='_BLANK'>
             <AiFillGithub className='cursor-pointer mb-3'/>
           </a>
 
-          <a href='https://www.linkedin.com/in/milo-bonnet/'>
+          <a href='https://www.linkedin.com/in/milo-bonnet/' target='_BLANK'>
             <AiFillLinkedin className='cursor-pointer mb-3'/>
           </a>
 
-          <a href='https://twitter.com/el_miloow'>
+          <a href='https://twitter.com/el_miloow' target='_BLANK'>
             <AiFillTwitterCircle className='cursor-pointer mb-3'/>
           </a>
         </div>
