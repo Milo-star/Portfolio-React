@@ -25,7 +25,7 @@ const App = () => {
               <FaMoon onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-xl dark:text-white'/>
             </li>
             <li>
-              <a href={${process.env.PUBLIC_URL}/cv.pdf} download className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5'>Resume</a>
+              <a href={`${process.env.PUBLIC_URL}/cv.pdf`} download className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5'>Resume</a>
             </li>
           </ul>
         </nav>
