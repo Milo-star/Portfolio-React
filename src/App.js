@@ -11,6 +11,7 @@ import web3 from './images/web3.png'
 import web4 from './images/web4.png'
 import web5 from './images/web5.png'
 import web6 from './images/web6.png'
+import web7 from './images/VintyBot.png'
 import { useState } from 'react';
 
 const App = () => {
@@ -122,6 +123,10 @@ const App = () => {
 
           <div className='basis-1/3 flex-1'>
             <img src={web6} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
+          </div>
+
+          <div className='basis-1/3 flex-1'>
+            <img src={web7} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
         </div>
       </section>
