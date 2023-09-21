@@ -37,7 +37,7 @@ const App = () => {
           </div>
           <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Bonnet Milo</h2>
           <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Full-Stack Developer.</h3>
-          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>I'm a young developer coming out of training at <span className='text-teal-500'>BeCode</span> for 7 months. I present to you my portfolio with my different projects available! I'm starting my internship at <span className='text-teal-500'>Digital Agency MDS</span> as a Full-Stack developer</p>
+          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>I'm a young developer coming out of training at <span className='text-teal-500'>BeCode</span> for 7 months. I present to you my portfolio with my different projects available! I'm currently working at <span className='text-teal-500'>Digital Agency MDS</span> a development agency!</p>
         </div>
 
         <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -102,31 +102,31 @@ const App = () => {
 
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           <div className='basis-1/3 flex-1'>
-            <img src={web7} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web7} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
   
           <div className='basis-1/3 flex-1'>
-            <img src={web1} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web1} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web2} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web2} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web3} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web3} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web4} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web4} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web5} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web5} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web6} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web6} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
         </div>
       </section>
