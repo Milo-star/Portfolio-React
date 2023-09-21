@@ -102,31 +102,31 @@ const App = () => {
 
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
           <div className='basis-1/3 flex-1'>
-            <img src={web7} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web7} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
   
           <div className='basis-1/3 flex-1'>
-            <img src={web1} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web1} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web2} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web2} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web3} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web3} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web4} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web4} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web5} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web5} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
 
           <div className='basis-1/3 flex-1'>
-            <img src={web6} alt="logo" className='rounded-lg object-cover h-400px' width={"100%"} height={"100%"} layout="responsive"/>
+            <img src={web6} alt="logo" className='rounded-lg object-cover' width={"100%"} height={"100%"} layout="responsive"/>
           </div>
         </div>
       </section>
